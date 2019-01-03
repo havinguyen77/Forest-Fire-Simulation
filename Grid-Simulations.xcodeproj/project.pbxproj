@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181F19E01C84F5A400CD6EAA /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F19DF1C84F5A400CD6EAA /* MSButtonNode.swift */; };
+		18701A791C8A55CA003DBBE7 /* PaletteGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18701A781C8A55CA003DBBE7 /* PaletteGrid.swift */; };
+		18701A7B1C8A590E003DBBE7 /* TouchableGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18701A7A1C8A590E003DBBE7 /* TouchableGrid.swift */; };
+		18757CB61C8CF14E0031F6C8 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18757CB51C8CF14E0031F6C8 /* Simulation.swift */; };
+		18757CC51C8E0F270031F6C8 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18757CC41C8E0F270031F6C8 /* StreamReader.swift */; };
+		18757CC91C8E141E0031F6C8 /* map01.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18757CC81C8E141E0031F6C8 /* map01.txt */; };
+		1889F0DB1C7AA5C1004C8D0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889F0DA1C7AA5C1004C8D0E /* AppDelegate.swift */; };
+		1889F0E11C7AA5C1004C8D0E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889F0E01C7AA5C1004C8D0E /* GameViewController.swift */; };
+		1889F0E41C7AA5C1004C8D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1889F0E21C7AA5C1004C8D0E /* Main.storyboard */; };
+		1889F0E61C7AA5C1004C8D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1889F0E51C7AA5C1004C8D0E /* Assets.xcassets */; };
+		1889F0E91C7AA5C1004C8D0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1889F0E71C7AA5C1004C8D0E /* LaunchScreen.storyboard */; };
+		1889F0F21C7AB040004C8D0E /* SimulationScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889F0F11C7AB040004C8D0E /* SimulationScene.swift */; };
+		BC4864551D0E8D460052A075 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4864541D0E8D460052A075 /* Random.swift */; };
+		BC6D95FD1D04866800B10A4C /* SimulationScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC6D95FC1D04866800B10A4C /* SimulationScene.sks */; };
+		BC6D96021D0487B100B10A4C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6D95FE1D0487B100B10A4C /* background.png */; };
+		BC6D96031D0487B100B10A4C /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6D95FF1D0487B100B10A4C /* button.png */; };
+		BC6D96041D0487B100B10A4C /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6D96001D0487B100B10A4C /* grid.png */; };
+		BC6D96051D0487B100B10A4C /* palette.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6D96011D0487B100B10A4C /* palette.png */; };
+		BC6D96071D048AD700B10A4C /* MSPlayPauseToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D96061D048AD700B10A4C /* MSPlayPauseToggleButton.swift */; };
+		EB34D4371EFCDD7D00439B46 /* ForestFireSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB34D4361EFCDD7D00439B46 /* ForestFireSimulation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181F19DF1C84F5A400CD6EAA /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSButtonNode.swift; path = GOL/MSButtonNode.swift; sourceTree = "<group>"; };
+		18701A781C8A55CA003DBBE7 /* PaletteGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaletteGrid.swift; path = GOL/PaletteGrid.swift; sourceTree = "<group>"; };
+		18701A7A1C8A590E003DBBE7 /* TouchableGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchableGrid.swift; path = GOL/TouchableGrid.swift; sourceTree = "<group>"; };
+		18757CB51C8CF14E0031F6C8 /* Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Simulation.swift; path = GOL/Simulation.swift; sourceTree = "<group>"; };
+		18757CC41C8E0F270031F6C8 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = GOL/StreamReader.swift; sourceTree = "<group>"; };
+		18757CC81C8E141E0031F6C8 /* map01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = map01.txt; path = Resources/map01.txt; sourceTree = "<group>"; };
+		1889F0D71C7AA5C1004C8D0E /* Grid-Simulations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grid-Simulations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1889F0DA1C7AA5C1004C8D0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1889F0E01C7AA5C1004C8D0E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1889F0E31C7AA5C1004C8D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1889F0E51C7AA5C1004C8D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1889F0E81C7AA5C1004C8D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1889F0EA1C7AA5C1004C8D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1889F0F11C7AB040004C8D0E /* SimulationScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationScene.swift; path = GOL/SimulationScene.swift; sourceTree = "<group>"; };
+		BC4864541D0E8D460052A075 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		BC6D95FC1D04866800B10A4C /* SimulationScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = SimulationScene.sks; path = Resources/SimulationScene.sks; sourceTree = "<group>"; };
+		BC6D95FE1D0487B100B10A4C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Resources/background.png; sourceTree = "<group>"; };
+		BC6D95FF1D0487B100B10A4C /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = Resources/button.png; sourceTree = "<group>"; };
+		BC6D96001D0487B100B10A4C /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grid.png; path = Resources/grid.png; sourceTree = "<group>"; };
+		BC6D96011D0487B100B10A4C /* palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = palette.png; path = Resources/palette.png; sourceTree = "<group>"; };
+		BC6D96061D048AD700B10A4C /* MSPlayPauseToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSPlayPauseToggleButton.swift; path = GOL/MSPlayPauseToggleButton.swift; sourceTree = "<group>"; };
+		EB34D4361EFCDD7D00439B46 /* ForestFireSimulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForestFireSimulation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1889F0D41C7AA5C1004C8D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1854EDBE1CA088CC00413C86 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				1889F0E01C7AA5C1004C8D0E /* GameViewController.swift */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		18757CC31C8E0F180031F6C8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18757CC41C8E0F270031F6C8 /* StreamReader.swift */,
+				BC4864541D0E8D460052A075 /* Random.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		1889F0CE1C7AA5C1004C8D0E = {
+			isa = PBXGroup;
+			children = (
+				1889F0D91C7AA5C1004C8D0E /* Grid-Simulations */,
+				1889F0D81C7AA5C1004C8D0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1889F0D81C7AA5C1004C8D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1889F0D71C7AA5C1004C8D0E /* Grid-Simulations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1889F0D91C7AA5C1004C8D0E /* Grid-Simulations */ = {
+			isa = PBXGroup;
+			children = (
+				1889F0F01C7AB016004C8D0E /* GameOfLife */,
+				18E17F941C7B8CB6002860E9 /* Resources */,
+				1889F0DA1C7AA5C1004C8D0E /* AppDelegate.swift */,
+				1889F0E21C7AA5C1004C8D0E /* Main.storyboard */,
+				1889F0E51C7AA5C1004C8D0E /* Assets.xcassets */,
+				1889F0E71C7AA5C1004C8D0E /* LaunchScreen.storyboard */,
+				1889F0EA1C7AA5C1004C8D0E /* Info.plist */,
+			);
+			path = "Grid-Simulations";
+			sourceTree = "<group>";
+		};
+		1889F0F01C7AB016004C8D0E /* GameOfLife */ = {
+			isa = PBXGroup;
+			children = (
+				1854EDBE1CA088CC00413C86 /* VCs */,
+				18757CC31C8E0F180031F6C8 /* Utilities */,
+				1889F0F41C7AB8BB004C8D0E /* Models */,
+				1889F0F31C7AB8B1004C8D0E /* Nodes */,
+			);
+			name = GameOfLife;
+			sourceTree = "<group>";
+		};
+		1889F0F31C7AB8B1004C8D0E /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				1889F0F11C7AB040004C8D0E /* SimulationScene.swift */,
+				18701A781C8A55CA003DBBE7 /* PaletteGrid.swift */,
+				181F19DF1C84F5A400CD6EAA /* MSButtonNode.swift */,
+				BC6D96061D048AD700B10A4C /* MSPlayPauseToggleButton.swift */,
+				18701A7A1C8A590E003DBBE7 /* TouchableGrid.swift */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		1889F0F41C7AB8BB004C8D0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18757CB51C8CF14E0031F6C8 /* Simulation.swift */,
+				EB34D4361EFCDD7D00439B46 /* ForestFireSimulation.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		18E17F941C7B8CB6002860E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D95FE1D0487B100B10A4C /* background.png */,
+				BC6D95FF1D0487B100B10A4C /* button.png */,
+				BC6D96001D0487B100B10A4C /* grid.png */,
+				BC6D96011D0487B100B10A4C /* palette.png */,
+				BC6D95FC1D04866800B10A4C /* SimulationScene.sks */,
+				18757CC81C8E141E0031F6C8 /* map01.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1889F0D61C7AA5C1004C8D0E /* Grid-Simulations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1889F0ED1C7AA5C1004C8D0E /* Build configuration list for PBXNativeTarget "Grid-Simulations" */;
+			buildPhases = (
+				1889F0D31C7AA5C1004C8D0E /* Sources */,
+				1889F0D41C7AA5C1004C8D0E /* Frameworks */,
+				1889F0D51C7AA5C1004C8D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grid-Simulations";
+			productName = "Make-School-Arrays";
+			productReference = 1889F0D71C7AA5C1004C8D0E /* Grid-Simulations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1889F0CF1C7AA5C1004C8D0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Make School";
+				TargetAttributes = {
+					1889F0D61C7AA5C1004C8D0E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = GRUQ62V93L;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1889F0D21C7AA5C1004C8D0E /* Build configuration list for PBXProject "Grid-Simulations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1889F0CE1C7AA5C1004C8D0E;
+			productRefGroup = 1889F0D81C7AA5C1004C8D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1889F0D61C7AA5C1004C8D0E /* Grid-Simulations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1889F0D51C7AA5C1004C8D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6D96031D0487B100B10A4C /* button.png in Resources */,
+				BC6D96051D0487B100B10A4C /* palette.png in Resources */,
+				BC6D96041D0487B100B10A4C /* grid.png in Resources */,
+				18757CC91C8E141E0031F6C8 /* map01.txt in Resources */,
+				BC6D96021D0487B100B10A4C /* background.png in Resources */,
+				1889F0E91C7AA5C1004C8D0E /* LaunchScreen.storyboard in Resources */,
+				BC6D95FD1D04866800B10A4C /* SimulationScene.sks in Resources */,
+				1889F0E61C7AA5C1004C8D0E /* Assets.xcassets in Resources */,
+				1889F0E41C7AA5C1004C8D0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1889F0D31C7AA5C1004C8D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18757CB61C8CF14E0031F6C8 /* Simulation.swift in Sources */,
+				BC6D96071D048AD700B10A4C /* MSPlayPauseToggleButton.swift in Sources */,
+				1889F0F21C7AB040004C8D0E /* SimulationScene.swift in Sources */,
+				1889F0E11C7AA5C1004C8D0E /* GameViewController.swift in Sources */,
+				18701A791C8A55CA003DBBE7 /* PaletteGrid.swift in Sources */,
+				18757CC51C8E0F270031F6C8 /* StreamReader.swift in Sources */,
+				EB34D4371EFCDD7D00439B46 /* ForestFireSimulation.swift in Sources */,
+				BC4864551D0E8D460052A075 /* Random.swift in Sources */,
+				181F19E01C84F5A400CD6EAA /* MSButtonNode.swift in Sources */,
+				1889F0DB1C7AA5C1004C8D0E /* AppDelegate.swift in Sources */,
+				18701A7B1C8A590E003DBBE7 /* TouchableGrid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1889F0E21C7AA5C1004C8D0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1889F0E31C7AA5C1004C8D0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1889F0E71C7AA5C1004C8D0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1889F0E81C7AA5C1004C8D0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1889F0EB1C7AA5C1004C8D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1889F0EC1C7AA5C1004C8D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1889F0EE1C7AA5C1004C8D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GRUQ62V93L;
+				INFOPLIST_FILE = "Grid-Simulations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MakeSchool.GridSimulations22;
+				PRODUCT_NAME = "Grid-Simulations";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1889F0EF1C7AA5C1004C8D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GRUQ62V93L;
+				INFOPLIST_FILE = "Grid-Simulations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MakeSchool.GridSimulations22;
+				PRODUCT_NAME = "Grid-Simulations";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1889F0D21C7AA5C1004C8D0E /* Build configuration list for PBXProject "Grid-Simulations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889F0EB1C7AA5C1004C8D0E /* Debug */,
+				1889F0EC1C7AA5C1004C8D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1889F0ED1C7AA5C1004C8D0E /* Build configuration list for PBXNativeTarget "Grid-Simulations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889F0EE1C7AA5C1004C8D0E /* Debug */,
+				1889F0EF1C7AA5C1004C8D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1889F0CF1C7AA5C1004C8D0E /* Project object */;
+}
